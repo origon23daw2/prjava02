@@ -1,0 +1,32 @@
+1.- Instruccions: git branch branca00
+git checkout branca00
+git status
+
+5.- Torna a la branca main del projecte. Comprova l'estat del projecte. Mostra l'historial de la branca main.
+Quina diferència hi ha amb l'historial de la branca branca00?.
+
+La diferencia es que a la branca main hi falta l'ultim commit.
+
+Instruccio: git checkout main 
+git log main --pretty=oneline
+
+6.- Des de geany, actualitza el contingut del fitxer Prjava02.java. Pots veure l'última línia afegida?. Per què?
+Perque ara estic obrint el fitxer des de la branca main, i la modificació i el commit l'he fet a la branca "branca00".
+
+7.- Torna a la branca branca00. Des de geany, actualitza el contingut del fitxer Prjava02.java. Pots veure
+l'última línia afegida?. Per què?.
+Si, perque el contingut del fitxer a branca00(del qual he fet el commit) contenia la ultima linia afegida.
+Instruccio: git checkout branca00
+
+10.- Instruccions: git merge branca00
+
+12.- Continuant dins de la branca main:
+a) Fes un push del dipòsit local al dipòsit remot. Instruccions-->git push -u origin main
+c) Comprova que només s'ha actualitzat la branca main únicament. Per què?.
+Només s'ha actualitzat la branca main perque hem executat la comanda de l'apartat a des de la branca main.
+
+14.- Fes:
+a) Un push de branca01 del dipòsit local al dipòsit remot. Instrucciço--> git push -u origin branca01
+b) Des de Github, actualiza la pàgina web del projecte, i comprova que s'ha generat la branca01 a
+Github i que a Prjava02.java estan els darrer canvis realitzats.
+c) A quants commits de distància (commit ahead) està de la branca main? 1
